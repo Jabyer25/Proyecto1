@@ -1,0 +1,91 @@
+
+body {
+    background-image: url('https://i.gifer.com/tQN.gif');
+    
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+}
+ 
+header {
+    font-weight: bold;
+}
+ 
+#calculator {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #adadad;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(1, 1, 1, 1);
+}
+ 
+#parkingCalculatorForm {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#ticket {
+    text-align: center;
+    background-color: #adadad;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(1, 1, 1, 1);
+}
+
+#a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    background-color: #adadad00;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(1, 1, 1, 1);
+}
+
+
+
+#efectivo { 
+    background: light-gray; 
+    color: black; 
+  } 
+  #efectivo:hover { 
+    background: blue; 
+    color: white; 
+  } 
+  #efectivo:active { 
+    background: gray; 
+    color: white; 
+  } 
+
+
+  #tarjeta { 
+    background: light-gray; 
+    color: black; 
+  } 
+  #tarjeta:hover { 
+    background: blue; 
+    color: white; 
+  } 
+  #tarjeta:active { 
+    background: gray; 
+    color: white; 
+  } 
+
+  
+  #calcular { 
+    background: light-gray; 
+    color: black; 
+  } 
+  #calcular:hover { 
+    background: blue; 
+    color: white; 
+  } 
+  #calcular:active { 
+    background: gray; 
+    color: white; 
+  } 

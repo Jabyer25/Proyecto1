@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGO DE PARQUEO</title>
+</head>
+<body>
+
+    <header id="a" class="bg-dark text-white text-center p-4" style="font-size: 40px;" >
+        Cobro de Estacionamiento
+    </header>
+
+    <form id="ticket">
+        Ingresa numero de ticket:
+        <input type="text" maxlength="7" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+      </form>
+
+    <section id="calculator" class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+
+                <h2 style="font-size: 40px;">Ingrese los Datos</h2>
+                <form id="parkingCalculatorForm">
+                    <div class="form-group">
+                        <label for="tiempo">Ingresar tiempo de estadía (en minutos): </label>
+                        <input type="number" class="form-control" id="tiempo">
+                    </div>
+                
+                <label for="metodo">No. de Tarjeta: </label>
+                <input type="text" class="form-control" id="tarjeta">
+                
+                <div class="form-group">
+                <label for="metodo">Efectivo: </label>
+                <input type="button" id="5" value="Q5.00">
+                <input type="button" id="10" value="Q10.00">
+                <input type="button" id="20" value="Q20.00">
+                <input type="button" id="50" value="Q50.00">
+                <input type="button" id="100" value="Q100.00">
+                
+
+                </div>
+
+                </form>
+
+                <form id="calculadora">
+                <button id=calcular type="submit" class="btn btn-primary w-100">Calcular Pago</button>
+                </form>
+
+                <div id="resultado" class="mt-4"></div>
+
+            </div>
+        </div>
+    </section>
+    
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
